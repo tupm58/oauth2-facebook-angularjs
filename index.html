@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/angular-bootstrap/ui-bootstrap-csp.css">
+</head>
+<body>
+    <div ui-view></div>
+    <a ui-sref="login">aaaa</a>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/satellizer/dist/satellizer.js"></script>
+
+    <!-- App -->
+    <script src="src/app/app.js"></script>
+    <script src="src/app/config.js"></script>
+    <script src="src/app/modules/user/user.js"></script>
+    <script src="src/app/constant.js"></script>
+
+
+    <!-- Services -->
+    <script src="src/app/modules/services/services.js"></script>
+    <script src="src/app/modules/services/httpRequestInterceptor.js"></script>
+    <script src="src/app/modules/services/userService.js"></script>
+    <script src="src/app/modules/services/oauthService.js"></script>
+
+    <!-- Controllers -->
+    <script src="src/app/modules/user/loginCtrl.js"></script>
+</body>
+</html>
